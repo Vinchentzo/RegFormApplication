@@ -12,10 +12,10 @@ I developed the application in Java using IntelliJ IDEA, using the Swing UI Desi
 
 * __Sending an email verification__ - Originally intended for successful registration notification via email, I encountered issues due to Gmail's removal of third-party program support in 2022. The code using the class was commented out. The javax.mail API, with the JavaBeans Activation Framework for MIME type compatibility, was employed to implement this functionality.
 
-* __Login/Logout__ - The login is achieved through a button that verifies user information, opening the user form upon success. Logout is facilitated by a button within the user form, closing the current window and returning to the login form.
-* 
+* __Login/Logout__ - The login is achieved through a button that verifies user information, opening the user form upon success. Logout is realized by a button within the user form, closing the current window and returning to the login form.
+
 * __CRUD interface__ - The application allows profile creation, information viewing in the user form, and includes buttons for updating information in the database and deleting the user. Both actions return users to the login form after completion.
-* 
+ 
 * __Unit testing__ - I opted not to implement unit testing due to the code structure, which wasn't conducive to testing. In the remaining time, I prioritized maintaining the working code over initiating a refactoring session to enable testing.
 
 ## Utilized Auto-generated and Ready Functions
